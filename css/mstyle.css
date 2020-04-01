@@ -1,0 +1,771 @@
+/* mobile nav styling */
+
+#mnav-items ul {
+    padding: 0px;
+    position: relative;
+    left: 69px;
+    padding: 0px 9px;
+    float: right;
+    width: 100%;
+    text-align: center;
+}
+
+#mnav-items ul li {
+    margin: 5px 0px;
+    background-color: #50003f;
+    padding: 0px 50px;
+    border-radius: 20px;
+    text-transform: capitalize;
+}
+
+#mnav-items ul li a {
+    color: #fefefe;
+}
+
+#nav-toggler {
+    border: 2px solid black;
+    margin-left: 50%;
+}
+
+
+/* ------------------------------------------------------ */
+
+
+/* mobile section 1 */
+
+#msection-1 {
+    background-color: #fbf5fa;
+    padding: 40px 5px;
+}
+
+#msection-1 #we {
+    color: #a10a81;
+}
+
+#msection-1 #see {
+    color: #a10a81;
+}
+
+#msection-1 .mintro-text .mhello {
+    font-size: 40px;
+    font-weight: 1000;
+}
+
+#msection-1 .mintro-text .mhello span {
+    color: #a10a81;
+}
+
+#msection-1 .mintro-text .mtext-head {
+    padding: 0;
+    font-size: 25px;
+    font-weight: 1000;
+    line-height: 35px;
+}
+
+#msection-1 .mintro-text .mtext-head .name {
+    float: right;
+    font-size: 15px;
+}
+
+#msection-1 .mintro-text .mtext-field {
+    margin: 50px 0px;
+    font-weight: 500;
+}
+
+#mbtn-dark {
+    font-weight: 600;
+    text-transform: capitalize;
+    border: none;
+    background: linear-gradient(to bottom right, #50003f, #343a40);
+    color: #ffffff;
+    padding: 15px 30px;
+    border-radius: 10px;
+}
+
+#mbtn-dark:hover {
+    text-decoration: none;
+    color: #50003f;
+    background: #ffffff;
+    border: 2px solid #50003f;
+    padding: 13px 28px;
+    transition: all ease-in-out 250ms;
+}
+
+
+/* ------------------------------------------------------ */
+
+
+/* section 2 styling */
+
+#msection-2 {
+    margin-top: 5px;
+    padding: 15px 5px;
+}
+
+#msection-2 .mteam-up {
+    padding: 10px;
+}
+
+#msection-2 .mteam-up .mteam-head {
+    font-weight: 900;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+#msection-2 .mteam-up .mteam-1 {
+    width: 100%;
+    padding: 0px 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 10px;
+    box-shadow: 0px 0px 7px 1px #c1bcbc;
+    border-radius: 0px 20px 0px 20px;
+}
+
+#msection-2 .mteam-up .mteam-1 .mteam-icon {
+    height: 100px;
+    width: 50%;
+    margin: 30px 25%;
+}
+
+#msection-2 .mteam-up .mteam-1 .mteam-icon img {
+    height: auto;
+    max-width: 100%;
+}
+
+#msection-2 .mteam-up .mteam-1 .mteam-text h4 {
+    text-transform: capitalize;
+    font-weight: 700;
+}
+
+#msection-2 .mw-20 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 50px;
+    width: 25%;
+}
+
+
+/* ------------------------------------------------------- */
+
+
+/* section 3 styling */
+
+#msection-3 {
+    margin-top: 20px;
+    display: block;
+    padding: 0px 5px;
+}
+
+#msection-3 .mhelp {
+    margin-bottom: 50px;
+}
+
+#msection-3 h1 {
+    font-weight: 800;
+    font-family: 'Roboto', sans-serif;
+    color: #50003f;
+}
+
+#msection-3 hr {
+    border: 2px solid #50003f;
+    border-radius: 20px;
+    width: 20%;
+}
+
+#msection-3 .mhelp .mborder-1 {
+    border-top: 5px solid teal;
+    border-radius: 20px;
+    box-shadow: 0px 6px 5px 1px black;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+#msection-3 .mhelp .mborder-2 {
+    border-top: 5px solid #a10a81;
+    border-radius: 20px;
+    box-shadow: 0px 6px 5px 1px black;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    margin-top: 50px;
+}
+
+#msection-3 .mhelp .mborder-3 {
+    border-top: 5px solid tomato;
+    border-radius: 20px;
+    box-shadow: 0px 6px 5px 1px black;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    margin-top: 50px;
+}
+
+#msection-3 .mhelp .mhelp-1 .mhelp-icon {
+    margin-top: 10px;
+    margin-left: 15%;
+    height: 150px;
+    width: 70%;
+    display: flex;
+    justify-content: center;
+}
+
+#msection-3 .mhelp .mhelp-1 .mhelp-icon img {
+    height: auto;
+    max-width: 70%;
+}
+
+#msection-3 .mhelp .mhelp-1 .mhelp-text {
+    padding: 10px;
+    margin-top: 10px;
+}
+
+#msection-3 .mhelp .mborder-1 .mhelp-text .mhelp-head {
+    font-size: 20px;
+    color: teal;
+    text-transform: capitalize;
+    font-family: 'Roboto', sans-serif;
+}
+
+#msection-3 .mhelp .mborder-2 .mhelp-text .mhelp-head {
+    font-size: 20px;
+    color: #a10a81;
+    text-transform: capitalize;
+    font-family: 'Roboto', sans-serif;
+}
+
+#msection-3 .mhelp .mborder-3 .mhelp-text .mhelp-head {
+    font-size: 20px;
+    color: tomato;
+    text-transform: capitalize;
+    font-family: 'Roboto', sans-serif;
+}
+
+#msection-3 .mhelp .mhelp-1 .mhelp-text .mhelp-p {
+    font-weight: 500;
+    font-family: 'Roboto', sans-serif;
+}
+
+
+/* ------------------------------------------------------ */
+
+
+/* section 4 styling */
+
+#msection-4 {
+    margin-bottom: 40px;
+    padding: 0px 5px;
+}
+
+#msection-4 .mmentor {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 40px;
+}
+
+#msection-4 .mmentor .mmentor-image {
+    margin-top: 10px;
+    height: 150px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+#msection-4 .mmentor .mmentor-image img {
+    height: auto;
+    max-width: 70%;
+}
+
+#msection-4 .mmentor .mmentor-text {
+    padding: 5px 10px;
+}
+
+#msection-4 .mmentor .mmentor-text h3 {
+    text-transform: capitalize;
+    font-weight: 500;
+}
+
+#msection-4 .mmentor .mmentor-text .mmentor-p {
+    text-align: justify;
+}
+
+
+/* ------------------------------------------------------ */
+
+#msection-5 {
+    padding: 0px 5px;
+    background-color: #fffdff;
+}
+
+#msection-5 .mabout-text {
+    margin-top: 20px;
+    height: 300px;
+    margin-bottom: 80px;
+}
+
+#msection-5 .mabout-text .mabout-head {
+    font-weight: 700;
+    color: #50003f;
+}
+
+#msection-5 .mabout-text .mabout-head hr {
+    border: 2px solid #50003f;
+    border-radius: 20px;
+    width: 15%;
+    position: relative;
+    top: -10px;
+}
+
+#msection-5 .mabout-text .mabout-p {
+    text-align: justify;
+    line-height: 25px;
+    margin: 20px 0px;
+}
+
+
+/* ------------------------------------------------------ */
+
+
+/* mobile footer styling */
+
+#mfooter-section {
+    background: linear-gradient(to bottom right, #50003f, #343a40);
+    color: #ffffff;
+    padding: 40px 5px;
+}
+
+#mfooter-section .jointxt {
+    font-size: 30px;
+}
+
+#mfooter-section .mbtn {
+    text-transform: capitalize;
+    padding: 10px 20px;
+    font-weight: 800;
+    border-radius: 10px;
+}
+
+#mfooter-section .mfooter-btn {
+    float: right;
+    box-shadow: 3px 4px 18px 1px black;
+}
+
+#mfooter-section .mfooter-btn:hover {
+    background: linear-gradient(to bottom right, #a10a81, #505962);
+    color: #ffffff;
+    border: none;
+    box-shadow: 6px -5px 11px 1px black;
+}
+
+#mfooter-section #ruler hr {
+    border: .5px solid #ffffff;
+}
+
+#mfooter-section .mfooter-section-2 {
+    margin-top: 50px;
+}
+
+#mfooter-section .mfooter-section-2 .mfooter-links .mlink-head {
+    text-transform: capitalize;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+#mfooter-section .mfooter-section-2 .mfooter-links-1 {
+    padding: 0;
+    display: flex;
+    flex-direction: row;
+}
+
+#mfooter-section #comm {
+    display: flex;
+    justify-content: space-between;
+}
+
+#mfooter-section .mfooter-section-2 .mfooter-links-1 .link-1 {
+    width: 50%;
+}
+
+#mfooter-section .mfooter-section-2 .mfooter-links .mfooter-list {
+    list-style: none;
+    padding: 0;
+}
+
+#mfooter-section .mfooter-section-2 .mfooter-links .mfooter-list .mlist-items .mitem-links {
+    text-decoration: none;
+    color: #ffffff;
+    text-transform: capitalize;
+}
+
+#mfooter-section .mfooter-section-2 .mfooter-links .mfooter-list .mlist-items .mitem-links:hover {
+    font-weight: 1000;
+    color: #f6c8ec;
+    transition: all ease-in-out 250ms;
+}
+
+
+/* ---------------------------------------------- */
+
+
+/* ---------------------------------------------- */
+
+
+/* ---------------------------------------------- */
+
+
+/* other pages' styles go below */
+
+
+/* ---------------------------------------------- */
+
+
+/* ---------------------------------------------- */
+
+
+/* ---------------------------------------------- */
+
+
+/* about page*/
+
+#mabout-1 {
+    margin-top: 20px;
+    padding: 0px 80px;
+}
+
+#mabout-1 .mgoal {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#mabout-1 .mgoal .mgoal-head h1 {
+    color: #50003f;
+    font-weight: 800;
+    font-family: 'Roboto', sans-serif;
+}
+
+#mabout-1 .mgoal .mgoal-head hr {
+    border: 2px solid #50003f;
+    border-radius: 30px;
+    width: 30%;
+    margin-top: -10px;
+}
+
+
+/* section 2, 3 and 4 styling */
+
+#mour-intro {
+    height: 400px;
+    margin-top: 10px;
+    padding: 15px 5px;
+    margin-bottom: 12%;
+}
+
+#mour-intro.mcolored {
+    background-color: #fbf5fa;
+}
+
+#mour-intro .mabout-intro-head {
+    width: 75%;
+    height: 100%;
+}
+
+#mour-intro .mabout-intro-head .mintro-head h1 {
+    color: #50003f;
+    font-weight: 800;
+    font-size: 30px;
+    font-family: 'Roboto', sans-serif;
+    border-left: 4px solid #a10a81;
+    padding-left: 10px;
+}
+
+#mour-intro .mabout-intro-text {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#mour-intro .mabout-intro-text p {
+    line-height: 30px;
+    font-weight: 900;
+}
+
+
+/* ---------------------------------------------- */
+
+
+/* ---------------------------------------------- */
+
+
+/* log in page */
+
+#mlogin {
+    margin: 20px 0px;
+    padding: 0px 5px;
+}
+
+#mlogin .login-text h1 {
+    color: #50003f;
+    font-size: 35px;
+    font-weight: 700;
+}
+
+#mlogin .login-text hr {
+    margin-top: -10px;
+    border: 2px solid #50003f;
+    border-radius: 30px;
+    width: 10%;
+}
+
+#mlogin .mmyform {
+    width: 100%;
+}
+
+#mlogin .mmyform label {
+    font-weight: 700;
+}
+
+
+/* ---------------------------------------------- */
+
+
+/* ---------------------------------------------- */
+
+
+/* mentors page */
+
+
+/* section 1 */
+
+#mmentors-1 {
+    margin: 20px 0px;
+    padding: 0px 5px;
+}
+
+#mmentors-1 .mmentors-text {
+    height: 400px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#mmentors-1 .mmentors-text .mmentors-head {
+    height: auto;
+    width: 100%;
+}
+
+#mmentors-1 .mmentors-text .mmentors-head h1 {
+    font-weight: 900;
+    color: #50003f;
+}
+
+#mmentors-1 .mmentors-text .mmentors-p {
+    height: auto;
+    width: 100%;
+}
+
+#mmentors-1 .mmentors-text .mmentors-p p {
+    font-weight: 600;
+    line-height: 35px;
+}
+
+#mmentors-1 .mmentors-text .mmentors-link {
+    height: auto;
+    width: 100%;
+    display: block;
+}
+
+#mmentors-1 .mmentors-image {
+    margin: 20px 0px;
+    height: 250px;
+    width: 100%;
+    display: flex;
+}
+
+#mmentors-1 .mmentors-image img {
+    height: auto;
+    max-width: 100%;
+}
+
+
+/* section 2 */
+
+#mmentors-2 {
+    margin: 20px 0px;
+    padding: 0px 5px;
+    width: 100%;
+}
+
+#mmentors-2 .mmeet-tag h2 {
+    font-weight: 800;
+    color: #50003f;
+    text-transform: capitalize;
+}
+
+#mmentors-2 .mmeet-tag hr {
+    margin-top: -5px;
+    border: 2px solid #50003f;
+    border-radius: 30px;
+    width: 30%;
+}
+
+#mmentors-2 .mmentors-profile {
+    box-shadow: 0 0 5px 2px rgb(105, 105, 105);
+    width: 100%;
+    border-radius: 10px;
+    margin: 30px 0px;
+}
+
+#mmentors-2 .mmentors-profile .mentors-info {
+    width: 100%;
+    display: flex;
+    padding: 20px;
+}
+
+#mmentors-2 .mmentors-profile .mmentors-pic {
+    height: 105px;
+    width: 55%;
+    display: flex;
+}
+
+#mmentors-2 .mmentors-profile .mmentors-pic img {
+    height: auto;
+    max-width: 100%;
+    border-radius: 10%;
+    box-shadow: 0 0 9px 1px #c51d1d;
+}
+
+#mmentors-2 .mmentors-profile .mmentors-name {
+    margin: 10px 0px;
+}
+
+#mmentors-2 .mmentors-profile .mmentors-name h3 {
+    color: #50003f;
+    border-left: 5px solid #a10a81;
+    margin-left: 30px;
+    padding-left: 10px;
+    font-weight: 700;
+}
+
+#mmentors-2 .mmentors-profile .mmentors-course {
+    width: 100%;
+    display: contents;
+    margin: 20px 0px;
+}
+
+#mmentors-2 .mmentors-profile .mmentors-course ul {
+    background-color: #50003f;
+    width: 100%;
+    float: right;
+    list-style: none;
+    display: flex;
+    justify-content: space-evenly;
+    padding: 0;
+    margin: 20px 0px;
+}
+
+#mmentors-2 .mmentors-profile .mmentors-course ul li {
+    float: left;
+    color: #ffffff;
+}
+
+#mmentors-2 .mmentors-profile .mmentors-link {
+    padding: 5px 0px 10px 0px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+
+/* ---------------------------------------------- */
+
+
+/* ---------------------------------------------- */
+
+
+/* sign up page */
+
+#msignup-1 {
+    margin: 20px 0px;
+    padding: 0px 5px;
+    width: 100%;
+}
+
+#msignup-1 .msignup-image {
+    height: 200px;
+    width: 100%;
+    display: flex;
+}
+
+#msignup-1 .msignup-image img {
+    height: auto;
+    max-width: 100%;
+}
+
+#msignup-1 .msignup-text {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#msignup-1 .msignup-text h1 {
+    color: #50003f;
+    font-weight: 800;
+}
+
+
+/* section 2 */
+
+#msignup-2 {
+    margin: 20px 0px;
+    padding: 0px 5px;
+    width: 100%;
+}
+
+#msignup-2 .mmyform {
+    width: 100%;
+}
+
+
+/* ---------------------------------------------- */
+
+
+/* ---------------------------------------------- */
+
+
+/* terms and conditions page */
+
+#mterms {
+    margin: 20px 0px;
+    padding: 0px 5px;
+    width: 100%;
+}
+
+
+/* ---------------------------------------------- */
+
+
+/* ---------------------------------------------- */
+
+#mprivacy {
+    margin: 20px 0px;
+    padding: 0px 5px;
+    width: 100%;
+}

@@ -1,0 +1,854 @@
+body {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+* {
+    font-family: 'Lato', sans-serif;
+}
+
+
+/* web nav styling */
+
+.nav-section {
+    margin-top: 6px;
+}
+
+.nav-section #logo-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    overflow: hidden;
+}
+
+.nav-section #logo-container #logo {
+    text-transform: capitalize;
+    color: #ffffff;
+    background: linear-gradient(to bottom right, #50003f, #343a40);
+    border-radius: 0px 20px 20px 0px;
+    margin-top: 9px;
+    padding: 5px;
+}
+
+.nav-section #logo-container #logo:hover {
+    color: #50003f;
+    border: 2px solid #50003f;
+    background: #ffffff;
+    border-radius: 0px 20px 20px 0px;
+    padding: 3px;
+}
+
+.nav-section #nav-list ul {
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.nav-section #nav-list ul li a {
+    font-size: 15px;
+    font-weight: 700;
+    font-family: 'Mada', sans-serif;
+    text-transform: capitalize;
+    border: 2px solid white;
+    border-bottom: 2px solid #50003f;
+}
+
+.nav-section #nav-list ul li a:hover {
+    color: #50003f;
+    border: 2px solid #50003f;
+    border-radius: 0px 20px 20px 0px;
+    transition: all ease-in-out 250ms;
+}
+
+.nav-section #nav-list ul li:nth-child(5) {
+    border: none;
+}
+
+.nav-section #nav-list ul li #dis-btn {
+    border: none;
+    background: linear-gradient(to bottom right, #50003f, #343a40);
+    color: #ffffff;
+    padding: 15px 30px;
+    border-radius: 10px;
+}
+
+.nav-section #nav-list ul li #dis-btn:hover {
+    color: #50003f;
+    background: #ffffff;
+    border: 2px solid #50003f;
+    padding: 13px 28px;
+    transition: all ease-in-out 250ms;
+}
+
+
+/* ---------------------------------- */
+
+
+/* section 1 styling */
+
+#section-1 {
+    background-color: #fbf5fa;
+    padding: 60px 75px 60px 30px;
+}
+
+#section-1 #intro {
+    margin-bottom: 5px;
+    height: 200px;
+}
+
+#section-1 #we {
+    color: #a10a81;
+    padding: 0px 10px;
+}
+
+#section-1 #see {
+    color: #a10a81;
+    padding: 0px 10px;
+}
+
+#section-1 .intro-text .hello {
+    font-size: 50px;
+    font-weight: 1000;
+}
+
+#section-1 .intro-text .hello span {
+    color: #a10a81;
+}
+
+#section-1 .intro-text .text-head {
+    padding: 0;
+    font-size: 30px;
+    font-weight: 1000;
+    line-height: 50px;
+}
+
+#section-1 .intro-text .text-head .name {
+    float: right;
+    font-size: 15px;
+}
+
+#section-1 .intro-text .text-field {
+    font-weight: 500;
+    margin-bottom: 50px;
+}
+
+#btn-dark {
+    font-weight: 600;
+    text-transform: capitalize;
+    border: none;
+    background: linear-gradient(to bottom right, #50003f, #343a40);
+    color: #ffffff;
+    padding: 15px 30px;
+    border-radius: 10px;
+    outline: none;
+}
+
+#btn-dark:hover {
+    text-decoration: none;
+    color: #50003f;
+    background: #ffffff;
+    border: 2px solid #50003f;
+    padding: 13px 28px;
+    transition: all ease-in-out 250ms;
+}
+
+#section-1 .section-1-image {
+    padding: 0;
+    height: 390px;
+    width: 100%;
+    display: inline-block;
+}
+
+#section-1 .section-1-image img {
+    height: inherit;
+    max-width: 100%;
+}
+
+
+/* ------------------------------- */
+
+
+/* section 2 styling */
+
+#section-2 {
+    margin-top: 10px;
+    padding: 30px 80px;
+}
+
+#section-2 .team-up {
+    padding: 40px;
+}
+
+#section-2 .team-up .team-head {
+    font-weight: 900;
+    color: #50003f;
+}
+
+#section-2 .team-up .team-1 {
+    width: 117%;
+    padding: 0px 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 10px;
+    box-shadow: 0px 0px 7px 1px #c1bcbc;
+    border-radius: 0px 20px 0px 20px;
+}
+
+#section-2 .team-up .team-1 .team-icon {
+    height: 100px;
+    width: 50%;
+    margin: 20px 25%;
+}
+
+#section-2 .team-up .team-1 .team-icon img {
+    height: auto;
+    max-width: 100%;
+}
+
+#section-2 .team-up .team-1 .team-text h4 {
+    text-transform: capitalize;
+    font-weight: 700;
+}
+
+#section-2 .w-20 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 100px;
+    width: 25%;
+}
+
+
+/* ------------------------------- */
+
+
+/* section-3 styling */
+
+#section-3 {
+    margin-top: 20px;
+    display: block;
+    padding: 0px 80px;
+}
+
+#section-3 .help {
+    margin-bottom: 50px;
+}
+
+#section-3 h1 {
+    font-weight: 800;
+    font-family: 'Roboto', sans-serif;
+    color: #50003f;
+}
+
+#section-3 hr {
+    border: 2px solid #50003f;
+    border-radius: 20px;
+    width: 10%;
+}
+
+#section-3 .help .border-1 {
+    border-top: 5px solid teal;
+    border-radius: 20px;
+    box-shadow: 0px 6px 5px 1px black;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+#section-3 .help .border-2 {
+    border-top: 5px solid #a10a81;
+    border-radius: 20px;
+    box-shadow: 0px 6px 5px 1px black;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+#section-3 .help .border-3 {
+    border-top: 5px solid tomato;
+    border-radius: 20px;
+    box-shadow: 0px 6px 5px 1px black;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+#section-3 .help .help-1 .help-icon {
+    margin-top: 20px;
+    height: 250px;
+    width: 100%;
+    display: block;
+}
+
+#section-3 .help .help-1 .help-icon img {
+    height: auto;
+    max-width: 100%;
+}
+
+#section-3 .help .help-1 .help-text {
+    padding: 10px;
+    margin-top: 40px;
+}
+
+#section-3 .help .border-1 .help-text .help-head {
+    font-size: 20px;
+    color: teal;
+    text-transform: capitalize;
+    font-family: 'Roboto', sans-serif;
+}
+
+#section-3 .help .border-2 .help-text .help-head {
+    font-size: 20px;
+    color: #a10a81;
+    text-transform: capitalize;
+    font-family: 'Roboto', sans-serif;
+}
+
+#section-3 .help .border-3 .help-text .help-head {
+    font-size: 20px;
+    color: tomato;
+    text-transform: capitalize;
+    font-family: 'Roboto', sans-serif;
+}
+
+#section-3 .help .help-1 .help-text .help-p {
+    font-weight: 500;
+    font-family: 'Roboto', sans-serif;
+}
+
+
+/* ------------------------------- */
+
+
+/* section 4 styling */
+
+#section-4 {
+    margin-bottom: 40px;
+    padding: 0px 80px;
+}
+
+#section-4 .mentor {
+    width: 95%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 40px;
+}
+
+#section-4 .mentor .mentor-image {
+    margin-top: 15px;
+    height: 250px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+#section-4 .mentor .mentor-image img {
+    height: auto;
+    max-width: 70%;
+}
+
+#section-4 .mentor .mentor-text {
+    padding: 5px 10px;
+}
+
+#section-4 .mentor .mentor-text h3 {
+    text-transform: capitalize;
+    font-weight: 500;
+}
+
+#section-4 .mentor .mentor-text .mentor-p {
+    text-align: justify;
+}
+
+
+/* ------------------------------- */
+
+
+/* section 5 styling */
+
+#section-5 {
+    padding: 10px 80px;
+    background-color: #fffdff;
+}
+
+#section-5 .about-text {
+    margin-top: 20px;
+    height: 300px;
+}
+
+#section-5 .about-text .about-head {
+    font-weight: 700;
+    color: #50003f;
+}
+
+#section-5 .about-text .about-head hr {
+    border: 2px solid #50003f;
+    border-radius: 20px;
+    width: 15%;
+    position: relative;
+    top: -10px;
+}
+
+#section-5 .about-text .about-p {
+    text-align: justify;
+    line-height: 25px;
+    margin: 20px 0px;
+}
+
+#section-5 .about-image {
+    height: 400px;
+    width: 100%;
+    display: flex;
+}
+
+#section-5 .about-image img {
+    height: auto;
+    max-width: 100%;
+}
+
+
+/* ------------------------------- */
+
+
+/* web footer styling */
+
+#footer-section {
+    background: linear-gradient(to bottom right, #50003f, #343a40);
+    color: #ffffff;
+    padding: 80px;
+}
+
+#footer-section .btn {
+    text-transform: capitalize;
+    padding: 15px 30px;
+    font-weight: 800;
+}
+
+#footer-section .footer-btn {
+    float: right;
+    box-shadow: 3px 4px 18px 1px black;
+}
+
+#footer-section .footer-btn:hover {
+    background: linear-gradient(to bottom right, #a10a81, #505962);
+    color: #ffffff;
+    border: none;
+    box-shadow: 6px -5px 11px 1px black;
+    transition: all ease-in-out 250ms;
+}
+
+#footer-section #ruler hr {
+    border: .5px solid #ffffff;
+}
+
+#footer-section .footer-section-2 {
+    margin-top: 50px;
+}
+
+#footer-section .footer-section-2 .footer-links .link-head {
+    text-transform: capitalize;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+#footer-section .footer-section-2 .footer-links .footer-list {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+}
+
+#footer-section .footer-section-2 .footer-links .footer-list .list-items .item-links {
+    text-decoration: none;
+    color: #ffffff;
+    text-transform: capitalize;
+}
+
+#footer-section .footer-section-2 .footer-links .footer-list .list-items .item-links:hover {
+    font-weight: 1000;
+    color: #f6c8ec;
+    transition: all ease-in-out 250ms;
+}
+
+
+/* ---------------------------------------------- */
+
+
+/* ---------------------------------------------- */
+
+
+/* ---------------------------------------------- */
+
+
+/* other pages' styles go below */
+
+
+/* ---------------------------------------------- */
+
+
+/* ---------------------------------------------- */
+
+
+/* ---------------------------------------------- */
+
+
+/* about page*/
+
+
+/* section 1 (.goal section) */
+
+#about-1 {
+    margin-top: 20px;
+    padding: 0px 80px;
+}
+
+#about-1 .goal {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#about-1 .goal .goal-head h1 {
+    color: #50003f;
+    font-weight: 800;
+    font-family: 'Roboto', sans-serif;
+}
+
+#about-1 .goal .goal-head hr {
+    border: 2px solid #50003f;
+    border-radius: 30px;
+    width: 30%;
+    margin-top: -10px;
+}
+
+#about-1 .goal-image {
+    height: 400px;
+    width: 100%;
+    display: flex;
+}
+
+#about-1 .goal-image img {
+    height: auto;
+    max-width: 100%;
+}
+
+
+/* ------------------------------------- */
+
+
+/* section 2, 3 and 4 styling */
+
+#our-intro {
+    height: 400px;
+    margin-top: 20px;
+    padding: 30px 80px;
+}
+
+#our-intro.colored {
+    background-color: #fbf5fa;
+}
+
+#our-intro .about-intro-head {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#our-intro .about-intro-head .intro-head h1 {
+    color: #50003f;
+    font-weight: 800;
+    font-family: 'Roboto', sans-serif;
+    border-left: 4px solid #a10a81;
+    padding-left: 10px;
+}
+
+#our-intro .about-intro-text {
+    height: 400px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#our-intro .about-intro-text p {
+    line-height: 30px;
+    font-weight: 900;
+}
+
+
+/* ---------------------------------------------- */
+
+
+/* ---------------------------------------------- */
+
+
+/* log in page */
+
+#login {
+    margin: 20px 0px;
+    padding: 0px 80px;
+}
+
+#login .login-image {
+    height: 400px;
+    width: 100%;
+    display: flex;
+}
+
+#login .login-image img {
+    height: auto;
+    max-width: 100%;
+}
+
+#login .myform {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+}
+
+#login .myform label {
+    font-weight: 700;
+}
+
+
+/* ---------------------------------------------- */
+
+
+/* ---------------------------------------------- */
+
+
+/* mentors page */
+
+
+/* section 1 */
+
+#mentors-1 {
+    margin: 20px 0px;
+    padding: 0px 80px;
+}
+
+#mentors-1 .mentors-text {
+    height: 400px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#mentors-1 .mentors-text .mentors-head {
+    height: auto;
+    width: 100%;
+}
+
+#mentors-1 .mentors-text .mentors-head h1 {
+    font-weight: 900;
+    color: #50003f;
+}
+
+#mentors-1 .mentors-text .mentors-p {
+    height: auto;
+    width: 100%;
+}
+
+#mentors-1 .mentors-text .mentors-p p {
+    font-weight: 600;
+    line-height: 35px;
+}
+
+#mentors-1 .mentors-text .mentors-link {
+    height: auto;
+    width: 100%;
+    display: block;
+}
+
+#mentors-1 .mentors-image {
+    height: 400px;
+    width: 100%;
+    display: flex;
+}
+
+#mentors-1 .mentors-image img {
+    height: auto;
+    max-width: 100%;
+}
+
+
+/* section 2 */
+
+#mentors-2 {
+    margin: 20px 0px 120px 0px;
+    padding: 0px 80px;
+    width: 100%;
+}
+
+#mentors-2 .meet-tag h2 {
+    font-weight: 800;
+    color: #50003f;
+    text-transform: capitalize;
+}
+
+#mentors-2 .meet-tag hr {
+    margin-top: -5px;
+    border: 2px solid #50003f;
+    border-radius: 30px;
+    width: 10%;
+}
+
+#mentors-2 .mentors-profile {
+    box-shadow: 0 0 5px 2px rgb(105, 105, 105);
+    width: 100%;
+    height: 120%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+}
+
+#mentors-2 .mentors-profile .mentors-pic {
+    height: 210px;
+    width: 55%;
+    display: flex;
+}
+
+#mentors-2 .mentors-profile .mentors-pic img {
+    height: auto;
+    max-width: 100%;
+    border-radius: 50%;
+    box-shadow: 0 0 9px 1px #c51d1d;
+}
+
+#mentors-2 .mentors-profile .mentors-name {
+    margin-top: 10px;
+}
+
+#mentors-2 .mentors-profile .mentors-name h3 {
+    color: #50003f;
+    border-left: 5px solid #a10a81;
+    padding-left: 10px;
+    font-weight: 700;
+}
+
+#mentors-2 .mentors-profile .mentors-course {
+    width: 100%;
+    display: contents;
+}
+
+#mentors-2 .mentors-profile .mentors-course ul {
+    background-color: #50003f;
+    width: 100%;
+    float: right;
+    list-style: none;
+    display: flex;
+    justify-content: space-evenly;
+    padding: 0;
+}
+
+#mentors-2 .mentors-profile .mentors-course ul li {
+    float: left;
+    color: #ffffff;
+}
+
+#mentors-2 .mentors-profile .mentors-link {
+    margin: 10px 0px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+
+/* ---------------------------------------------- */
+
+
+/* ---------------------------------------------- */
+
+
+/* sign up page */
+
+#signup-1 {
+    margin: 20px 0px;
+    padding: 0px 80px;
+    width: 100%;
+}
+
+#signup-1 .signup-image {
+    height: 400px;
+    width: 100%;
+    display: flex;
+}
+
+#signup-1 .signup-image img {
+    height: auto;
+    max-width: 100%;
+}
+
+#signup-1 .signup-text {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#signup-1 .signup-text h1 {
+    color: #50003f;
+    font-weight: 800;
+}
+
+
+/* section 2 */
+
+#signup-2 {
+    margin: 20px 0px;
+    padding: 0px 80px;
+}
+
+#signup-2 .myform {
+    width: 50%;
+}
+
+
+/* ---------------------------------------------- */
+
+
+/* ---------------------------------------------- */
+
+
+/* terms and conditions page */
+
+#terms {
+    margin: 20px 0px;
+    padding: 0px 80px;
+    width: 100%;
+}
+
+#terms .terms-content {
+    display: flex;
+}
+
+
+/* ---------------------------------------------- */
+
+
+/* ---------------------------------------------- */
+
+
+/* privacy page */
+
+#privacy {
+    margin: 20px 0px;
+    padding: 0px 80px;
+    width: 100%;
+}
